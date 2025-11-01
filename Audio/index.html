@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Audio file kaaise attach karte hai,controls is used to show adio file -->
+    <!-- <audio src="kahiNaLageMann.mp3" controls></audio> -->
+    
+    <!-- second best way -->
+     <audio controls>
+        <source src="./Saanson.mp3">
+        <source src="./kahiNaLageMann.mp3">  <!--Second source alternate h agar first load nahi hua to second song show hoga-->
+        Songs are not loaded.
+     </audio>
+     <br><br>
+     
+     <!-- <video src="./Shaky.mp4" controls heigth="500" width="500"></video> -->
+    <!-- Second best method -->
+     <video controls autoplay muted height="500" width="400">
+        <source src="./Shaky.mp4" type="video/mp4" >
+     </video>
+</body>
+</html> 

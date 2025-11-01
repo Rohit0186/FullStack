@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Feedback Form</h1>
+        <label for="name">Your Name: </label>
+        <input type="text" id="name" name="fname">
+        <br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="Email">
+        <br><br>
+
+        <label>Rate Us: </label>
+        <input type="radio" id="1" name="Rate" value="1">  <!--label ke for or input ke id same hoti h taki input me likhe text to click karne pr radio button direct fil ho jaye-->
+        <label for="1">1 Star</label>         <!--name attribute se fill wala data hamre backend me bane sheet ke name wale column me store hota h-->
+         <!-- value se hamari fil value backend ke xl sheet me store hoti h agar value nahi denge to name wale section me 'on' store hoga -->
+
+        <input type="radio" id="2" name="Rate" value="2">
+        <label for="2">2 Star</label>
+
+        <input type="radio" id="3" name="Rate" value="3">
+        <label for="3">3 Star</label>
+        <input type="radio" id="4" name="Rate" value="4">
+        <label for="4">4 Star</label>
+         
+        <br><br>
+        <label for="comment">Comments: </label>
+        <textarea name="comments" id="comment" heigth="100" width="100" placeholder="Write your comments"></textarea>
+        <br><br>
+
+        <button>Submit Feedback</button>
+
+    </form>
+</body>
+</html>

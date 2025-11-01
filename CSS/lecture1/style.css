@@ -1,0 +1,29 @@
+h1{
+    color: aqua;
+    background-color: black;
+}
+
+ol{
+    color: blanchedalmond;
+    background-color: brown;
+}
+
+/* class selector is used */
+/* you need to use dot(.) to select class */
+
+.first{
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+.second{
+    color: rgb(13, 22, 30);
+    background-color: rgb(43, 156, 156);
+}
+
+/* ID selector used, id is unique */
+/* you need to use hash(#) to select id */
+
+#third{
+    background-color: blueviolet;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form >
+         <fieldset><!--Grouping ka kam karta h , legend use hota h grouping me write ke liye-->
+            <legend> <h1>IT JEE Registration Form</h1></legend>
+        <label for="name">Full Name: </label>
+        <input type="text" id="name" name="Name">
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="Email">
+        <br><br>
+
+        <label for="phn">Phone: </label>
+        <input type="tel" id="phn" name="phone">
+        <br><br>
+
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="Password">
+        <br><br>
+
+
+    <label>Gender:</label>
+    <input type="radio" id="Male" name="gender" value="Male">
+    <label for="Male">Male</label>
+    <input type="radio" id="female"  name="gender" value="Female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label>
+    <br>
+    <br>
+    <label for="Sname">School Name: </label>
+    <input type="text" id="Sname" name="School Name">
+    <br><br>
+
+    <label for="DOB">DOB:</label>
+    <input type="date" id="DOB" name="Date of birth" min="2001-01-01" max="2005-06-01">
+    <br><br>
+
+    <label for="board">Board: </label>
+    <select name="Board" id="board">
+        <option disabled selected>Select your Board</option>
+        <option value="CBSE">CBSE</option>
+        <option value="ICSE">ICSE</option>
+        <option value="UP">UP</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br>
+
+    <label for="year">Year of Passing:</label>
+    <input type="number" min="2022" max="2025" id="year" name="Year">
+    <br><br>
+
+    <label for="center">Exam Center: </label>
+    <select name="center" id="center">
+        <option disabled selected>Select your center</option>
+        <option value="Delhi">Delhi</option>
+        <option value="UP">UP</option>
+        <option value="Goa">GOa</option>
+        <option value="Patna">Patna</option>
+    </select>
+    <br><br>
+    <button>Register</button>
+</fieldset>
+
+</body>
+</html>
