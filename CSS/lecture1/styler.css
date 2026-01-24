@@ -2,9 +2,32 @@
 
 /* *{
     background-color: rgb(164, 111, 213);
-}
-
-li{
-    background-color: brown;
+    color : rgb(31, 19, 117);
 } */
- 
+
+
+/* Universal Selector /Group selwsctor*/
+/* h1,h3,p{
+    background-color: aqua;
+} */
+
+
+/* h2[draggable="true"]{
+    background-color: yellow;
+    color: red;
+} */
+
+
+/* Select by decendent */
+/* section p{
+    background-color: aqua;
+    
+} */
+
+
+/* Select by child */
+
+section > p{
+    background-color: yellow;
+    color: red;
+}

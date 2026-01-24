@@ -1,0 +1,12 @@
+/* Change by rgb */
+/* 0-255 ke bich RED GREEN BLUE ke value ko selsct ke sakte h jo har  ek 8 bit leta h total 24 bits use hote h */
+
+h1{
+    color: rgb(23, 12, 155);
+
+}
+/* Hexadecimal ka use karna */
+/* # tag use ,6 character(0-f)*/
+h2{
+    color: #a13818;
+}
