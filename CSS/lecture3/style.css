@@ -1,0 +1,17 @@
+/* CSS rule priority kaise decide hota h --- order<specificity<type<importance */
+/* priorty by specificity  ---- id > Attributes >class > child and decendent> element and group element  */
+/*priorty by type---- inline css >  internal or external me usko milegi priority jo last me aayega*/
+/* important ke aage koi kuch nahi bol sakta h ,sabse pahle apply hota h*/
+h1{
+    background-color: blanchedalmond !important;
+    color: blue;
+    background-color: brown;
+}
+
+#first_class{
+    background-color: pink;
+
+}
+.first_id{
+    background-color: aqua;
+}

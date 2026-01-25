@@ -1,12 +1,34 @@
+/* Types of colouring (name,rgb, hsl,haxadecimal,rgba all type ke  sat alpha ko add karsate h) */
 /* Change by rgb */
+/* Change by rgba where a is alpha which value lies between 0 to 1 */
 /* 0-255 ke bich RED GREEN BLUE ke value ko selsct ke sakte h jo har  ek 8 bit leta h total 24 bits use hote h */
 
+body{
+    background-color: blanchedalmond;
+    /* background-image:url(./Molly_006-2829x1886-2726x1886-1920x1328.webp);
+    background-size: cover; */
+}
 h1{
-    color: rgb(23, 12, 155);
+    color: rgba(9, 3, 70, 0.747);
+    font-family: Arial, Helvetica, sans-serif;
+    /*pixel size is determined by your device size  ,use hota h em,rem  */
+    /* em , related to parent font size */
+    /* rem, related to HTML font size */
+    /* %  , related to parent font size*/
+    /* font-size: 40px;  */
+    font-size: 4rem; 
 
+
+    
 }
 /* Hexadecimal ka use karna */
 /* # tag use ,6 character(0-f)*/
 h2{
     color: #a13818;
+}
+
+/* using hsl(HSL stand for hue,sitution,and lightness.Hue is the color type(a degree on the color wheel from 0 to 360),
+saturation is the intensity or purity of the color(0% is grayscale, 100% is fully saturated),and lightness is define how light or dark the color is/brightness of the color(0% is black , 100% is white)) */
+p{
+    color: hsl(120, 56%, 18%);
 }

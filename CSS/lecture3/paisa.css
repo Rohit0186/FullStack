@@ -1,0 +1,17 @@
+h1{
+    font-size: 10vw;
+    /* vm > means % of viewport width*/
+    /* vh > means % of viewport hight*/
+    /* font-weight: 600;
+    font-style:oblique;
+    font-variant: normal; */
+    text-transform: lowercase;
+    Font-stretch: condensed;
+}
+p{
+    line-height: 30px;
+    /* letter-spacing: 1px;
+    word-spacing: 2px; */
+
+
+}
