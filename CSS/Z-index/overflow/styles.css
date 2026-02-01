@@ -1,0 +1,12 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+
+
+}
+/* by default overflow is visible */

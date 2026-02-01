@@ -1,0 +1,17 @@
+.img1{
+    width: auto;
+    height: 300px;
+    float: right;
+    margin-right: 20px;
+
+}
+.img2{
+    height: 300px;
+    width: auto;
+    float: right;
+    /* clear use kr ke hum ek ke niche ek laga sakte h */
+    /* clear: right;  */
+    clear: both;
+    margin-right: 20px;
+
+}

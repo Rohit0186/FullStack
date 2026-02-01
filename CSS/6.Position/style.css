@@ -1,0 +1,44 @@
+ .container{
+    background-color: darksalmon;
+    margin-left: 200px;
+    margin-top: 200px;
+    height: 1000px;
+    left: 50px;
+ }
+ .container2{
+   height: 1000px;
+   background-color: brown;
+ }
+
+ .box{
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+ }
+/* top ,bottom,left ,right */
+/* sticky : sticky se corainer ek parent class me hi stiky hota h dusare class me excess nahi ho pata h*/
+.box1{
+    background-color: red;
+ }
+
+.box2{
+    background-color: blue;
+    /*relative position: apne origin position se top se given px se move kr jayega*/
+    /* postion: static; eshme top ,bottom,right left kam nahi karta  */
+    top: 30px; 
+    bottom: 30px;
+    /* position:absolute; */
+    /* position: fixed; */
+    position: sticky;
+    top: 20px;
+
+
+
+ }
+.box3{
+    background-color: green;
+    top: 40px;
+ }
+.box4{
+    background-color: yellow;
+}
